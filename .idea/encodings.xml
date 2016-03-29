@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/configs/system.config.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/controller/error.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/controller/home.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/controller/login.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/controller/login_out.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/controller/search.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/index.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/system/PDO/PDO.class.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/system/file/file.class.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/system/functions/functions.class.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/system/memcache/memcache.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/view/templates/blogInfor.tpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/view/templates/error.tpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/view/templates/home.tpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/view/templates/login.tpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/view/templates/register.tpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/view/templates/search.tpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/view/templates/update_Blog.tpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/view/templates/write.tpl" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

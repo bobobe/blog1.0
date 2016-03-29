@@ -1,0 +1,12 @@
+﻿[25-Feb-2016 08:16:32 Europe/Berlin] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template file 'login.tpl' <-- 
+  thrown in E:\xampp\htdocs\projects\blog2.0\system\smarty_libs\sysplugins\smarty_internal_template.php on line 219
+[25-Feb-2016 09:22:22 Europe/Berlin] PHP Fatal error:  Class 'Memcache' not found in E:\xampp\htdocs\projects\blog2.0\system\memcache\memcache.php on line 20
+[25-Feb-2016 09:22:27 Europe/Berlin] PHP Fatal error:  Class 'Memcache' not found in E:\xampp\htdocs\projects\blog2.0\system\memcache\memcache.php on line 20
+[25-Feb-2016 09:22:30 Europe/Berlin] PHP Fatal error:  Class 'Memcache' not found in E:\xampp\htdocs\projects\blog2.0\system\memcache\memcache.php on line 20
+[25-Feb-2016 09:25:09 Europe/Berlin] PHP Fatal error:  Class 'Memcache' not found in E:\xampp\htdocs\projects\blog2.0\system\memcache\memcache.php on line 20
+[25-Feb-2016 09:25:28 Europe/Berlin] PHP Fatal error:  Class 'Memcache' not found in E:\xampp\htdocs\projects\blog2.0\system\memcache\memcache.php on line 20
+[25-Feb-2016 09:25:41 Europe/Berlin] PHP Fatal error:  Class 'Memcache' not found in E:\xampp\htdocs\projects\blog2.0\system\memcache\memcache.php on line 20
+[25-Feb-2016 09:26:25 Europe/Berlin] PHP Fatal error:  Class 'Memcache' not found in E:\xampp\htdocs\projects\blog2.0\system\memcache\memcache.php on line 20
+[25-Feb-2016 09:27:16 Europe/Berlin] PHP Fatal error:  Class 'Memcache' not found in E:\xampp\htdocs\projects\blog2.0\system\memcache\memcache.php on line 20
+[2016-02-25 10:14:18]错误级别是：E_WARNING;在E:\xampp\htdocs\projects\blog2.0\system\file\file.class.php第65行存在错误;错误信息是move_uploaded_file(D:/program/EasyPHP-DevServer-14.1VC11/data/localweb/projects/blog2.0/customer_file/201602251014186581.jpeg): failed to open stream: No such file or directory。
+ 

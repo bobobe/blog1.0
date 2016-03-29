@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<db>
+		<ip>localhost</ip>
+		<user>root</user>
+		<password>root</password>
+		<port>3306</port>
+		<dbname>myblog2.0</dbname>
+	</db>
+
+	<memcache>
+	    <ip>localhost</ip>
+	    <port>11211</port>
+	</memcache>
+</config>
