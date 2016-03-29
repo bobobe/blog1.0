@@ -1,0 +1,2 @@
+# blog1.0
+A BLOG MADE BY BOBOBE
