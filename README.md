@@ -1,2 +1,2 @@
-# blog1.0
-A BLOG MADE BY BOBOBE
+# blog
+A BLOG use MVC and smarty for fun.
