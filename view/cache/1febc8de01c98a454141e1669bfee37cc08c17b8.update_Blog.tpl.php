@@ -1,28 +1,28 @@
 <?php
-/*%%SmartyHeaderCode:2194256ceba7dc13080_27604715%%*/
+/*%%SmartyHeaderCode:1746858d124c19a06a5_35594756%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '0e9316ed6aa3606fed6fb78214f023ea1a4b86b6' => 
+    '1febc8de01c98a454141e1669bfee37cc08c17b8' => 
     array (
-      0 => 'E:\\xampp\\htdocs\\projects\\blog2.0\\view\\templates\\write.tpl',
-      1 => 1450003663,
+      0 => 'E:\\xampp\\htdocs\\projects\\blog2.0\\view\\templates\\update_Blog.tpl',
+      1 => 1450016472,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2194256ceba7dc13080_27604715',
+  'nocache_hash' => '1746858d124c19a06a5_35594756',
   'tpl_function' => 
   array (
   ),
   'version' => '3.1.27',
-  'unifunc' => 'content_58b656a83a9178_95192037',
+  'unifunc' => 'content_58d124d8918ec6_78960365',
   'has_nocache_code' => false,
   'cache_lifetime' => 3600,
 ),true);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_58b656a83a9178_95192037')) {
-function content_58b656a83a9178_95192037 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_58d124d8918ec6_78960365')) {
+function content_58d124d8918ec6_78960365 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -40,11 +40,9 @@ function content_58b656a83a9178_95192037 ($_smarty_tpl) {
     <!--[if lt IE 9]>
     <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-
     <![endif]-->
     <link type="text/css" href="http://localhost/projects/blog2.0/view/stylesheet/boke.css" rel="stylesheet"/>
 </head>
-
 <body>
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
@@ -66,9 +64,9 @@ function content_58b656a83a9178_95192037 ($_smarty_tpl) {
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <form class="navbar-form navbar-left" role="search" action = "search.php" method = "post">
+            <form class="navbar-form navbar-left" role="search">
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search" name = "keys">
+                    <input type="text" class="form-control" placeholder="Search">
                 </div>
 
                 <button type="submit" class="btn btn-default">查找blog</button>
@@ -101,29 +99,25 @@ function content_58b656a83a9178_95192037 ($_smarty_tpl) {
                     <h3 class="panel-title">New Blog</h3>
                 </div>
                 <div class="panel-body">
-                    <form action = "write.php" method="post" >
+                    <form action = "http://localhost/projects/blog2.0/controller/update_Blog.php" method="post" >
                         <div class="form-group">
-
                             <div class="row">
-
-                                                                <div class="col-md-4">
-
-                                    <label for="exampleInputName2">Title</label>
-                                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Title" name = "title" value=>
+                                                                <div class="col-md-4 col-md-offset-2">
+                                  <label for="exampleInputName2">Title</label>
+                                  <input type="text" class="form-control" id="exampleInputName2" placeholder="Title" name = "title" value="fdsa">
 
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-12">
+                                <div class="col-md-8 col-md-offset-2">
                                     <label for="exampleInputName2">Content</label>
-                                    <textarea rows = "6" name = "content"></textarea>
+                                    <textarea class="form-control" rows="6" name = "content">&lt;p&gt;&lt;strong&gt;asdf&lt;/strong&gt;&lt;/p&gt;
+</textarea>
                                     <script type = "text/javascript">CKEDITOR.replace('content');</script>
                                 </div>
-
                             </div>
                             <input class="btn btn-default pull-right" type="submit" value="Submit" name = "submit">
-                            <input type="hidden" name="submitted"/>
-
+                            <input type="hidden" name="submitted" value='59'/>
 
                         </div>
                     </form>
@@ -138,14 +132,12 @@ function content_58b656a83a9178_95192037 ($_smarty_tpl) {
     </div>
 </div>
 
-
-
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="http://localhost/projects/blog2.0/view/jquery/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="http://localhost/projects/blog2.0/view/bootstrap/bootstrap.min.js"></script>-->
-
+<script src="http://localhost/projects/blog2.0/view/bootstrap/bootstrap.min.js"></script>
 </body>
-</html><?php }
+</html>
+<?php }
 }
 ?>

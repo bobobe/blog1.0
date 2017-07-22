@@ -1,28 +1,28 @@
 <?php
-/*%%SmartyHeaderCode:2194256ceba7dc13080_27604715%%*/
+/*%%SmartyHeaderCode:963756ceb9a7177188_22883972%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '0e9316ed6aa3606fed6fb78214f023ea1a4b86b6' => 
+    '53c4c8cde33bbe91a83f8e8f8c50638329c05725' => 
     array (
-      0 => 'E:\\xampp\\htdocs\\projects\\blog2.0\\view\\templates\\write.tpl',
-      1 => 1450003663,
+      0 => 'E:\\xampp\\htdocs\\projects\\blog2.0\\view\\templates\\home.tpl',
+      1 => 1447855728,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2194256ceba7dc13080_27604715',
+  'nocache_hash' => '963756ceb9a7177188_22883972',
   'tpl_function' => 
   array (
   ),
   'version' => '3.1.27',
-  'unifunc' => 'content_58b656a83a9178_95192037',
+  'unifunc' => 'content_58d53617849459_67760924',
   'has_nocache_code' => false,
   'cache_lifetime' => 3600,
 ),true);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_58b656a83a9178_95192037')) {
-function content_58b656a83a9178_95192037 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_58d53617849459_67760924')) {
+function content_58d53617849459_67760924 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -32,7 +32,6 @@ function content_58b656a83a9178_95192037 ($_smarty_tpl) {
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><!--移动设备支持,禁止缩放-->
     <title>我的博客</title>
     <!-- Bootstrap -->
-    <script type = "text/javascript" src="http://localhost/projects/blog2.0/view/javascript/fulltext/ckeditor.js"></script>
     <link href="http://localhost/projects/blog2.0/view/bootstrap/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -40,11 +39,9 @@ function content_58b656a83a9178_95192037 ($_smarty_tpl) {
     <!--[if lt IE 9]>
     <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-
     <![endif]-->
     <link type="text/css" href="http://localhost/projects/blog2.0/view/stylesheet/boke.css" rel="stylesheet"/>
 </head>
-
 <body>
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
@@ -84,55 +81,76 @@ function content_58b656a83a9178_95192037 ($_smarty_tpl) {
                         <li><a href="#">Separated link</a></li>
                     </ul>
                 </li>
+                <li><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">welcome,yanbo</a></li>
+                <li>
+                    <a class="navbar-brand">
+                        <img alt="Brand"  id = "img-size"class="img-circle img-responsive" src="http://localhost/projects/blog2.0/customer_file/201703211403523684.jpeg">
+                    </a>
+                </li>
                 <li><a href="http://localhost/projects/blog2.0/controller/login_out.php" class="dropdown-toggle" role="button" aria-expanded="false">Exit</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
 <div class="container-fluid">
+
     <div class="row">
 
-        <div class="col-md-2">
+        <div class="col-md-4">
         </div>
 
         <div class="col-md-8">
-            <div class="panel panel-success">
-                <div class="panel-heading">
-                    <h3 class="panel-title">New Blog</h3>
-                </div>
-                <div class="panel-body">
-                    <form action = "write.php" method="post" >
-                        <div class="form-group">
 
-                            <div class="row">
+            <ol class="breadcrumb">
+                <li><a href="">blog</a></li>
+                <li><a href="">示例</a></li>
+                <li>2017-03-24 04:07:03</li>
+            </ol>
 
-                                                                <div class="col-md-4">
+            <div class="panel panel-info">
+                <!-- Default panel contents -->
+                <div class="panel-heading">博客列表</div>
 
-                                    <label for="exampleInputName2">Title</label>
-                                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Title" name = "title" value=>
+                <!-- Table -->
+                <table class="table">
+                    <tr>
+                        <td class="text-success">标题</td>
+                        <td class="text-success">更新时间</td>
+                        <td class="text-success">操作</td>
+                        <td class="text-success">热度</td>
+                    </tr>
 
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <label for="exampleInputName2">Content</label>
-                                    <textarea rows = "6" name = "content"></textarea>
-                                    <script type = "text/javascript">CKEDITOR.replace('content');</script>
-                                </div>
-
-                            </div>
-                            <input class="btn btn-default pull-right" type="submit" value="Submit" name = "submit">
-                            <input type="hidden" name="submitted"/>
-
-
-                        </div>
-                    </form>
-
-                </div>
+                                    </table>
             </div>
-        </div>
 
-        <div class="col-md-2">
+            <ul class="pagination  pull-right">
+                <li>
+                                            <a href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    
+                </li>
+                <!--上一页-->
+
+                <!--页码形式(1)全部显示-->
+                
+
+                <!--页码形式(2)部分显示-->
+                                                                    
+                
+                                                    
+                <!--下一页-->
+                                    <li>
+                        <a href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                
+                <li><a href="#">共0页</a></li>
+
+
+            </ul>
+
         </div>
 
     </div>
@@ -140,12 +158,14 @@ function content_58b656a83a9178_95192037 ($_smarty_tpl) {
 
 
 
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="http://localhost/projects/blog2.0/view/jquery/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="http://localhost/projects/blog2.0/view/bootstrap/bootstrap.min.js"></script>-->
-
+<script src="http://localhost/projects/blog2.0/view/bootstrap/bootstrap.min.js"></script>
 </body>
-</html><?php }
+</html>
+
+<?php }
 }
 ?>
